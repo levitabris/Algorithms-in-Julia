@@ -1,5 +1,10 @@
 ```
-  This is a direct Julia port of Mark G. Johnson's C implementation of the Hooke and Jeeves algorithm based on Sean R. Johnson's Python version on July 7, 2013. The original source code can be found at https://searchcode.com/file/66639051/hooke_jeeves_bounded.py.
+  This is a direct Julia port of Mark G. Johnson's C implementation 
+  of the Hooke and Jeeves algorithm based on Sean R. Johnson's 
+  Python version on July 7, 2013. The original source code can
+  be found at: 
+
+  https://searchcode.com/file/66639051/hooke_jeeves_bounded.py
   
   ===== Original Copyright Information ======
   
