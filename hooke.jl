@@ -1,10 +1,8 @@
 ```
   This is a direct Julia port of Mark G. Johnson's C implementation 
-  of the Hooke and Jeeves algorithm based on Sean R. Johnson's 
-  Python version on July 7, 2013. The original source code can
-  be found at: 
-
-  https://searchcode.com/file/66639051/hooke_jeeves_bounded.py
+  of the Hooke and Jeeves algorithm based on Sean R. Johnson (2013)'s 
+  Python version (https://searchcode.com/file/66639051/hooke_jeeves_bounded.py
+  ).
   
   ===== Original Copyright Information ======
   
@@ -114,7 +112,6 @@ function hooke(f, startpt, bounds=nothing, rho=0.5, epsilon=1e-6, itermax=5000, 
         # if bounds is none, make it none for all (it will be converted to below)
         bounds = [[nothing, nothing] for x in startpt]
     else
-        @bp
         bounds = [[x[1], x[2]] for x in bounds] #make it so it wont update the original
     end
 
